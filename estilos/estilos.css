@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+.container {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  box-shadow:   0 0 30px rgba(251, 255, 1, 0.952);
+  overflow: hidden;
+  width: 70%;
+  height: 90%;
+}
+.illustration {
+  background: #191a19;
+  color: white;
+  font: small-caps 100%/200% serif;
+  font-size: large;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.illustration img {
+  max-width: 100%;
+  height: auto;
+}
+.login-form {
+  padding: 40px;
+  flex: 1;
+}
+.login-form h2 {
+  margin-bottom: 0px;
+  color: #000000;
+}
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-form button:hover {
+  background: rgba(251, 255, 1, 0.952);
+  color: #000000;
+}
+.login-form a {
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+  color: #000000;
+  text-decoration: none;
+}
+.login-form a:hover {
+  text-decoration: underline;
+}
