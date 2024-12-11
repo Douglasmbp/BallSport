@@ -7,7 +7,7 @@ if (isset($_POST['registrar'])){
     $mensaje = "<p style='color:red;'>Por favor complete todos los campos</p>";
   }
   else {
-    if ($_POST['jugadores'] < 8) {
+    if ($_POST['jugadores'] < 3) {
         $mensaje = "<p style='color:red;'>El numero de jugadores minimo para poder participar son 8</p>";
     }
     else{

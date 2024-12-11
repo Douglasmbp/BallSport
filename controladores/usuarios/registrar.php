@@ -9,7 +9,7 @@ if (isset($_POST['registrar'])) {
     session_start();
     $nombre = $_POST['nombre'];
     $username = strtolower($_POST['username']);
-    $password = strtolower($_POST['password']);
+    $password = $_POST['password'];
     $tipo_usuario = "estandar";
     $pregunta_seguridad1 = $_POST['pregunta_seguridad1'];
     $respuesta_seguridad1 = strtolower($_POST['respuesta_seguridad1']);

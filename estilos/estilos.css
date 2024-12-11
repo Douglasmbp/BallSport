@@ -73,3 +73,6 @@ body {
 .login-form a:hover {
   text-decoration: underline;
 }
+.hidden_player {
+  display: none;
+}

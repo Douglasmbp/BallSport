@@ -142,9 +142,9 @@
                 <?php endif; ?>
                 <hr class="sidebar-divider border-black mt-3">
 
-                <div class="px-0 my-4">
+                <div class="px-2">
 
-                    <table class="table table-striped">
+                    <table class="table">
                         <thead class="text-white" style="background-color: #000 !important">
                             <tr>
                                 <th scope="col">Nombre del equipo</th>
@@ -167,6 +167,7 @@
                 
 
     <!-- Bootstrap core JavaScript-->
+    <script src="../../js/mostrar_jugadores.js"></script>
     <script src="../../vendor/jquery/jquery.min.js"></script>
     <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 

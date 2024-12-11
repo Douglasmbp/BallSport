@@ -1,7 +1,7 @@
 <?php
 include "../../../modelo/conexion.php";
 $sql = $conexion->query("SELECT * FROM usuarios");
-while ($datos = $sql->fetch_object()) { ?>
+while ($datos = $sql->fetch_object()) {?>
     <tr>
         <td><?php echo $datos->nombre ?></td>
         <td><?php echo $datos->cedula ?></td>
